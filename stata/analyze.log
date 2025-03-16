@@ -1,0 +1,1452 @@
+----------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/coco/Desktop/台大計量/stata/analyze.log
+  log type:  text
+ opened on:   3 Nov 2024, 21:00:31
+
+. 
+. use "inc108.dta"
+
+. append using "inc109.dta"
+(variable b4_6 was byte, now int to accommodate using data's values)
+(variable d8a1 was byte, now int to accommodate using data's values)
+(variable d8b2 was byte, now int to accommodate using data's values)
+(variable d8c2 was int, now long to accommodate using data's values)
+(variable itm89 was byte, now long to accommodate using data's values)
+(variable itm94 was byte, now long to accommodate using data's values)
+(variable itm115 was int, now long to accommodate using data's values)
+(variable itm116 was int, now long to accommodate using data's values)
+(variable itm119 was int, now long to accommodate using data's values)
+(variable itm129 was int, now long to accommodate using data's values)
+(variable itm204 was int, now long to accommodate using data's values)
+(variable itm304 was byte, now long to accommodate using data's values)
+(variable itm314 was byte, now long to accommodate using data's values)
+(variable itm336 was int, now long to accommodate using data's values)
+(variable itm346 was int, now long to accommodate using data's values)
+(variable itm375 was byte, now long to accommodate using data's values)
+(variable itm387 was byte, now int to accommodate using data's values)
+(variable itm446 was byte, now int to accommodate using data's values)
+(variable itm476 was byte, now int to accommodate using data's values)
+(variable itm523 was int, now long to accommodate using data's values)
+(variable itm535 was int, now long to accommodate using data's values)
+(variable itm555 was int, now long to accommodate using data's values)
+(variable itm594 was int, now long to accommodate using data's values)
+(variable itm656 was byte, now long to accommodate using data's values)
+(variable itm854 was int, now long to accommodate using data's values)
+(variable itm886 was byte, now long to accommodate using data's values)
+(variable itm899 was int, now long to accommodate using data's values)
+(variable itm912 was int, now long to accommodate using data's values)
+(variable itm916 was byte, now int to accommodate using data's values)
+(variable itm919 was int, now long to accommodate using data's values)
+(variable itm1048 was int, now long to accommodate using data's values)
+(variable itm1132 was int, now long to accommodate using data's values)
+(variable itm1142 was int, now long to accommodate using data's values)
+(variable itm1166 was int, now long to accommodate using data's values)
+(label d6 already defined)
+(label d5 already defined)
+(label d1 already defined)
+(label c4 already defined)
+(label c2 already defined)
+(label c1 already defined)
+(label f61 already defined)
+(label f57 already defined)
+(label b16_19 already defined)
+(label b15_19 already defined)
+(label b14_19 already defined)
+(label b13_19 already defined)
+(label b12_19 already defined)
+(label b10_19 already defined)
+(label b9_19 already defined)
+(label b8_19 already defined)
+(label b5_19 already defined)
+(label b3_19 already defined)
+(label b2_19 already defined)
+(label b16_18 already defined)
+(label b15_18 already defined)
+(label b14_18 already defined)
+(label b13_18 already defined)
+(label b12_18 already defined)
+(label b10_18 already defined)
+(label b9_18 already defined)
+(label b8_18 already defined)
+(label b5_18 already defined)
+(label b3_18 already defined)
+(label b2_18 already defined)
+(label b16_17 already defined)
+(label b15_17 already defined)
+(label b14_17 already defined)
+(label b13_17 already defined)
+(label b12_17 already defined)
+(label b10_17 already defined)
+(label b9_17 already defined)
+(label b8_17 already defined)
+(label b5_17 already defined)
+(label b3_17 already defined)
+(label b2_17 already defined)
+(label b16_16 already defined)
+(label b15_16 already defined)
+(label b14_16 already defined)
+(label b13_16 already defined)
+(label b12_16 already defined)
+(label b10_16 already defined)
+(label b9_16 already defined)
+(label b8_16 already defined)
+(label b5_16 already defined)
+(label b3_16 already defined)
+(label b2_16 already defined)
+(label b16_15 already defined)
+(label b15_15 already defined)
+(label b14_15 already defined)
+(label b13_15 already defined)
+(label b12_15 already defined)
+(label b10_15 already defined)
+(label b9_15 already defined)
+(label b8_15 already defined)
+(label b5_15 already defined)
+(label b3_15 already defined)
+(label b2_15 already defined)
+(label b16_14 already defined)
+(label b15_14 already defined)
+(label b14_14 already defined)
+(label b13_14 already defined)
+(label b12_14 already defined)
+(label b10_14 already defined)
+(label b9_14 already defined)
+(label b8_14 already defined)
+(label b5_14 already defined)
+(label b3_14 already defined)
+(label b2_14 already defined)
+(label b16_13 already defined)
+(label b15_13 already defined)
+(label b14_13 already defined)
+(label b13_13 already defined)
+(label b12_13 already defined)
+(label b10_13 already defined)
+(label b9_13 already defined)
+(label b8_13 already defined)
+(label b5_13 already defined)
+(label b3_13 already defined)
+(label b2_13 already defined)
+(label b16_12 already defined)
+(label b15_12 already defined)
+(label b14_12 already defined)
+(label b13_12 already defined)
+(label b12_12 already defined)
+(label b10_12 already defined)
+(label b9_12 already defined)
+(label b8_12 already defined)
+(label b5_12 already defined)
+(label b3_12 already defined)
+(label b2_12 already defined)
+(label b16_11 already defined)
+(label b15_11 already defined)
+(label b14_11 already defined)
+(label b13_11 already defined)
+(label b12_11 already defined)
+(label b10_11 already defined)
+(label b9_11 already defined)
+(label b8_11 already defined)
+(label b5_11 already defined)
+(label b3_11 already defined)
+(label b2_11 already defined)
+(label b16_10 already defined)
+(label b15_10 already defined)
+(label b14_10 already defined)
+(label b13_10 already defined)
+(label b12_10 already defined)
+(label b10_10 already defined)
+(label b9_10 already defined)
+(label b8_10 already defined)
+(label b5_10 already defined)
+(label b3_10 already defined)
+(label b2_10 already defined)
+(label b16_9 already defined)
+(label b15_9 already defined)
+(label b14_9 already defined)
+(label b13_9 already defined)
+(label b12_9 already defined)
+(label b10_9 already defined)
+(label b9_9 already defined)
+(label b8_9 already defined)
+(label b5_9 already defined)
+(label b3_9 already defined)
+(label b2_9 already defined)
+(label b16_8 already defined)
+(label b15_8 already defined)
+(label b14_8 already defined)
+(label b13_8 already defined)
+(label b12_8 already defined)
+(label b10_8 already defined)
+(label b9_8 already defined)
+(label b8_8 already defined)
+(label b5_8 already defined)
+(label b3_8 already defined)
+(label b2_8 already defined)
+(label b16_7 already defined)
+(label b15_7 already defined)
+(label b14_7 already defined)
+(label b13_7 already defined)
+(label b12_7 already defined)
+(label b10_7 already defined)
+(label b9_7 already defined)
+(label b8_7 already defined)
+(label b5_7 already defined)
+(label b3_7 already defined)
+(label b2_7 already defined)
+(label b16_6 already defined)
+(label b15_6 already defined)
+(label b14_6 already defined)
+(label b13_6 already defined)
+(label b12_6 already defined)
+(label b10_6 already defined)
+(label b9_6 already defined)
+(label b8_6 already defined)
+(label b5_6 already defined)
+(label b3_6 already defined)
+(label b2_6 already defined)
+(label b16_5 already defined)
+(label b15_5 already defined)
+(label b14_5 already defined)
+(label b13_5 already defined)
+(label b12_5 already defined)
+(label b10_5 already defined)
+(label b9_5 already defined)
+(label b8_5 already defined)
+(label b5_5 already defined)
+(label b3_5 already defined)
+(label b2_5 already defined)
+(label b16_4 already defined)
+(label b15_4 already defined)
+(label b14_4 already defined)
+(label b13_4 already defined)
+(label b12_4 already defined)
+(label b10_4 already defined)
+(label b9_4 already defined)
+(label b8_4 already defined)
+(label b5_4 already defined)
+(label b3_4 already defined)
+(label b2_4 already defined)
+(label b16_3 already defined)
+(label b15_3 already defined)
+(label b14_3 already defined)
+(label b13_3 already defined)
+(label b12_3 already defined)
+(label b10_3 already defined)
+(label b9_3 already defined)
+(label b8_3 already defined)
+(label b5_3 already defined)
+(label b3_3 already defined)
+(label b2_3 already defined)
+(label b16_2 already defined)
+(label b15_2 already defined)
+(label b14_2 already defined)
+(label b13_2 already defined)
+(label b12_2 already defined)
+(label b10_2 already defined)
+(label b9_2 already defined)
+(label b8_2 already defined)
+(label b5_2 already defined)
+(label b3_2 already defined)
+(label b2_2 already defined)
+(label b16_1 already defined)
+(label b15_1 already defined)
+(label b14_1 already defined)
+(label b13_1 already defined)
+(label b12_1 already defined)
+(label b10_1 already defined)
+(label b9_1 already defined)
+(label b8_1 already defined)
+(label b5_1 already defined)
+(label b3_1 already defined)
+(label b2_1 already defined)
+(label a18 already defined)
+(label a17 already defined)
+(label a16 already defined)
+(label a11 already defined)
+(label a7 already defined)
+(label a5 already defined)
+(label a4 already defined)
+
+. append using "inc110.dta"
+(variable itm118 was byte, now int to accommodate using data's values)
+(variable itm128 was byte, now int to accommodate using data's values)
+(variable itm138 was byte, now int to accommodate using data's values)
+(variable itm187 was byte, now int to accommodate using data's values)
+(variable itm188 was byte, now int to accommodate using data's values)
+(variable itm198 was byte, now long to accommodate using data's values)
+(variable itm205 was int, now long to accommodate using data's values)
+(variable itm208 was byte, now int to accommodate using data's values)
+(variable itm218 was byte, now long to accommodate using data's values)
+(variable itm238 was byte, now long to accommodate using data's values)
+(variable itm269 was int, now long to accommodate using data's values)
+(variable itm338 was byte, now int to accommodate using data's values)
+(variable itm348 was byte, now int to accommodate using data's values)
+(variable itm366 was byte, now long to accommodate using data's values)
+(variable itm386 was int, now long to accommodate using data's values)
+(variable itm387 was int, now long to accommodate using data's values)
+(variable itm388 was byte, now int to accommodate using data's values)
+(variable itm408 was byte, now long to accommodate using data's values)
+(variable itm417 was int, now long to accommodate using data's values)
+(variable itm418 was byte, now int to accommodate using data's values)
+(variable itm427 was byte, now long to accommodate using data's values)
+(variable itm437 was int, now long to accommodate using data's values)
+(variable itm438 was byte, now int to accommodate using data's values)
+(variable itm457 was int, now long to accommodate using data's values)
+(variable itm458 was byte, now int to accommodate using data's values)
+(variable itm515 was byte, now long to accommodate using data's values)
+(variable itm545 was byte, now long to accommodate using data's values)
+(variable itm568 was byte, now long to accommodate using data's values)
+(variable itm578 was byte, now int to accommodate using data's values)
+(variable itm608 was byte, now long to accommodate using data's values)
+(variable itm624 was int, now long to accommodate using data's values)
+(variable itm648 was byte, now long to accommodate using data's values)
+(variable itm655 was byte, now long to accommodate using data's values)
+(variable itm668 was byte, now long to accommodate using data's values)
+(variable itm688 was byte, now long to accommodate using data's values)
+(variable itm708 was byte, now int to accommodate using data's values)
+(variable itm855 was int, now long to accommodate using data's values)
+(variable itm871 was int, now long to accommodate using data's values)
+(variable itm872 was int, now long to accommodate using data's values)
+(variable itm873 was int, now long to accommodate using data's values)
+(variable itm947 was int, now long to accommodate using data's values)
+(variable itm948 was byte, now int to accommodate using data's values)
+(variable itm958 was byte, now int to accommodate using data's values)
+(variable itm1045 was int, now long to accommodate using data's values)
+(variable itm1046 was int, now long to accommodate using data's values)
+(variable itm1101 was int, now long to accommodate using data's values)
+(variable itm1169 was int, now long to accommodate using data's values)
+(label d6 already defined)
+(label d5 already defined)
+(label d1 already defined)
+(label c4 already defined)
+(label c2 already defined)
+(label c1 already defined)
+(label f61 already defined)
+(label f57 already defined)
+(label b16_19 already defined)
+(label b15_19 already defined)
+(label b14_19 already defined)
+(label b13_19 already defined)
+(label b12_19 already defined)
+(label b10_19 already defined)
+(label b9_19 already defined)
+(label b8_19 already defined)
+(label b5_19 already defined)
+(label b3_19 already defined)
+(label b2_19 already defined)
+(label b16_18 already defined)
+(label b15_18 already defined)
+(label b14_18 already defined)
+(label b13_18 already defined)
+(label b12_18 already defined)
+(label b10_18 already defined)
+(label b9_18 already defined)
+(label b8_18 already defined)
+(label b5_18 already defined)
+(label b3_18 already defined)
+(label b2_18 already defined)
+(label b16_17 already defined)
+(label b15_17 already defined)
+(label b14_17 already defined)
+(label b13_17 already defined)
+(label b12_17 already defined)
+(label b10_17 already defined)
+(label b9_17 already defined)
+(label b8_17 already defined)
+(label b5_17 already defined)
+(label b3_17 already defined)
+(label b2_17 already defined)
+(label b16_16 already defined)
+(label b15_16 already defined)
+(label b14_16 already defined)
+(label b13_16 already defined)
+(label b12_16 already defined)
+(label b10_16 already defined)
+(label b9_16 already defined)
+(label b8_16 already defined)
+(label b5_16 already defined)
+(label b3_16 already defined)
+(label b2_16 already defined)
+(label b16_15 already defined)
+(label b15_15 already defined)
+(label b14_15 already defined)
+(label b13_15 already defined)
+(label b12_15 already defined)
+(label b10_15 already defined)
+(label b9_15 already defined)
+(label b8_15 already defined)
+(label b5_15 already defined)
+(label b3_15 already defined)
+(label b2_15 already defined)
+(label b16_14 already defined)
+(label b15_14 already defined)
+(label b14_14 already defined)
+(label b13_14 already defined)
+(label b12_14 already defined)
+(label b10_14 already defined)
+(label b9_14 already defined)
+(label b8_14 already defined)
+(label b5_14 already defined)
+(label b3_14 already defined)
+(label b2_14 already defined)
+(label b16_13 already defined)
+(label b15_13 already defined)
+(label b14_13 already defined)
+(label b13_13 already defined)
+(label b12_13 already defined)
+(label b10_13 already defined)
+(label b9_13 already defined)
+(label b8_13 already defined)
+(label b5_13 already defined)
+(label b3_13 already defined)
+(label b2_13 already defined)
+(label b16_12 already defined)
+(label b15_12 already defined)
+(label b14_12 already defined)
+(label b13_12 already defined)
+(label b12_12 already defined)
+(label b10_12 already defined)
+(label b9_12 already defined)
+(label b8_12 already defined)
+(label b5_12 already defined)
+(label b3_12 already defined)
+(label b2_12 already defined)
+(label b16_11 already defined)
+(label b15_11 already defined)
+(label b14_11 already defined)
+(label b13_11 already defined)
+(label b12_11 already defined)
+(label b10_11 already defined)
+(label b9_11 already defined)
+(label b8_11 already defined)
+(label b5_11 already defined)
+(label b3_11 already defined)
+(label b2_11 already defined)
+(label b16_10 already defined)
+(label b15_10 already defined)
+(label b14_10 already defined)
+(label b13_10 already defined)
+(label b12_10 already defined)
+(label b10_10 already defined)
+(label b9_10 already defined)
+(label b8_10 already defined)
+(label b5_10 already defined)
+(label b3_10 already defined)
+(label b2_10 already defined)
+(label b16_9 already defined)
+(label b15_9 already defined)
+(label b14_9 already defined)
+(label b13_9 already defined)
+(label b12_9 already defined)
+(label b10_9 already defined)
+(label b9_9 already defined)
+(label b8_9 already defined)
+(label b5_9 already defined)
+(label b3_9 already defined)
+(label b2_9 already defined)
+(label b16_8 already defined)
+(label b15_8 already defined)
+(label b14_8 already defined)
+(label b13_8 already defined)
+(label b12_8 already defined)
+(label b10_8 already defined)
+(label b9_8 already defined)
+(label b8_8 already defined)
+(label b5_8 already defined)
+(label b3_8 already defined)
+(label b2_8 already defined)
+(label b16_7 already defined)
+(label b15_7 already defined)
+(label b14_7 already defined)
+(label b13_7 already defined)
+(label b12_7 already defined)
+(label b10_7 already defined)
+(label b9_7 already defined)
+(label b8_7 already defined)
+(label b5_7 already defined)
+(label b3_7 already defined)
+(label b2_7 already defined)
+(label b16_6 already defined)
+(label b15_6 already defined)
+(label b14_6 already defined)
+(label b13_6 already defined)
+(label b12_6 already defined)
+(label b10_6 already defined)
+(label b9_6 already defined)
+(label b8_6 already defined)
+(label b5_6 already defined)
+(label b3_6 already defined)
+(label b2_6 already defined)
+(label b16_5 already defined)
+(label b15_5 already defined)
+(label b14_5 already defined)
+(label b13_5 already defined)
+(label b12_5 already defined)
+(label b10_5 already defined)
+(label b9_5 already defined)
+(label b8_5 already defined)
+(label b5_5 already defined)
+(label b3_5 already defined)
+(label b2_5 already defined)
+(label b16_4 already defined)
+(label b15_4 already defined)
+(label b14_4 already defined)
+(label b13_4 already defined)
+(label b12_4 already defined)
+(label b10_4 already defined)
+(label b9_4 already defined)
+(label b8_4 already defined)
+(label b5_4 already defined)
+(label b3_4 already defined)
+(label b2_4 already defined)
+(label b16_3 already defined)
+(label b15_3 already defined)
+(label b14_3 already defined)
+(label b13_3 already defined)
+(label b12_3 already defined)
+(label b10_3 already defined)
+(label b9_3 already defined)
+(label b8_3 already defined)
+(label b5_3 already defined)
+(label b3_3 already defined)
+(label b2_3 already defined)
+(label b16_2 already defined)
+(label b15_2 already defined)
+(label b14_2 already defined)
+(label b13_2 already defined)
+(label b12_2 already defined)
+(label b10_2 already defined)
+(label b9_2 already defined)
+(label b8_2 already defined)
+(label b5_2 already defined)
+(label b3_2 already defined)
+(label b2_2 already defined)
+(label b16_1 already defined)
+(label b15_1 already defined)
+(label b14_1 already defined)
+(label b13_1 already defined)
+(label b12_1 already defined)
+(label b10_1 already defined)
+(label b9_1 already defined)
+(label b8_1 already defined)
+(label b5_1 already defined)
+(label b3_1 already defined)
+(label b2_1 already defined)
+(label a18 already defined)
+(label a17 already defined)
+(label a16 already defined)
+(label a11 already defined)
+(label a7 already defined)
+(label a5 already defined)
+(label a4 already defined)
+
+. append using "inc111.dta"
+(variable a6 was byte, now int to accommodate using data's values)
+(variable b4_4 was byte, now int to accommodate using data's values)
+(variable itm87 was byte, now long to accommodate using data's values)
+(variable itm157 was byte, now long to accommodate using data's values)
+(variable itm227 was byte, now long to accommodate using data's values)
+(variable itm247 was byte, now long to accommodate using data's values)
+(variable itm284 was byte, now long to accommodate using data's values)
+(variable itm297 was byte, now long to accommodate using data's values)
+(variable itm496 was byte, now int to accommodate using data's values)
+(variable itm524 was int, now long to accommodate using data's values)
+(variable itm525 was byte, now int to accommodate using data's values)
+(variable itm677 was byte, now int to accommodate using data's values)
+(variable itm856 was byte, now int to accommodate using data's values)
+(variable itm1098 was int, now long to accommodate using data's values)
+(variable itm1165 was int, now long to accommodate using data's values)
+(label d6 already defined)
+(label d5 already defined)
+(label d1 already defined)
+(label c4 already defined)
+(label c2 already defined)
+(label c1 already defined)
+(label f61 already defined)
+(label f57 already defined)
+(label b16_19 already defined)
+(label b15_19 already defined)
+(label b14_19 already defined)
+(label b13_19 already defined)
+(label b12_19 already defined)
+(label b10_19 already defined)
+(label b9_19 already defined)
+(label b8_19 already defined)
+(label b5_19 already defined)
+(label b3_19 already defined)
+(label b2_19 already defined)
+(label b16_18 already defined)
+(label b15_18 already defined)
+(label b14_18 already defined)
+(label b13_18 already defined)
+(label b12_18 already defined)
+(label b10_18 already defined)
+(label b9_18 already defined)
+(label b8_18 already defined)
+(label b5_18 already defined)
+(label b3_18 already defined)
+(label b2_18 already defined)
+(label b16_17 already defined)
+(label b15_17 already defined)
+(label b14_17 already defined)
+(label b13_17 already defined)
+(label b12_17 already defined)
+(label b10_17 already defined)
+(label b9_17 already defined)
+(label b8_17 already defined)
+(label b5_17 already defined)
+(label b3_17 already defined)
+(label b2_17 already defined)
+(label b16_16 already defined)
+(label b15_16 already defined)
+(label b14_16 already defined)
+(label b13_16 already defined)
+(label b12_16 already defined)
+(label b10_16 already defined)
+(label b9_16 already defined)
+(label b8_16 already defined)
+(label b5_16 already defined)
+(label b3_16 already defined)
+(label b2_16 already defined)
+(label b16_15 already defined)
+(label b15_15 already defined)
+(label b14_15 already defined)
+(label b13_15 already defined)
+(label b12_15 already defined)
+(label b10_15 already defined)
+(label b9_15 already defined)
+(label b8_15 already defined)
+(label b5_15 already defined)
+(label b3_15 already defined)
+(label b2_15 already defined)
+(label b16_14 already defined)
+(label b15_14 already defined)
+(label b14_14 already defined)
+(label b13_14 already defined)
+(label b12_14 already defined)
+(label b10_14 already defined)
+(label b9_14 already defined)
+(label b8_14 already defined)
+(label b5_14 already defined)
+(label b3_14 already defined)
+(label b2_14 already defined)
+(label b16_13 already defined)
+(label b15_13 already defined)
+(label b14_13 already defined)
+(label b13_13 already defined)
+(label b12_13 already defined)
+(label b10_13 already defined)
+(label b9_13 already defined)
+(label b8_13 already defined)
+(label b5_13 already defined)
+(label b3_13 already defined)
+(label b2_13 already defined)
+(label b16_12 already defined)
+(label b15_12 already defined)
+(label b14_12 already defined)
+(label b13_12 already defined)
+(label b12_12 already defined)
+(label b10_12 already defined)
+(label b9_12 already defined)
+(label b8_12 already defined)
+(label b5_12 already defined)
+(label b3_12 already defined)
+(label b2_12 already defined)
+(label b16_11 already defined)
+(label b15_11 already defined)
+(label b14_11 already defined)
+(label b13_11 already defined)
+(label b12_11 already defined)
+(label b10_11 already defined)
+(label b9_11 already defined)
+(label b8_11 already defined)
+(label b5_11 already defined)
+(label b3_11 already defined)
+(label b2_11 already defined)
+(label b16_10 already defined)
+(label b15_10 already defined)
+(label b14_10 already defined)
+(label b13_10 already defined)
+(label b12_10 already defined)
+(label b10_10 already defined)
+(label b9_10 already defined)
+(label b8_10 already defined)
+(label b5_10 already defined)
+(label b3_10 already defined)
+(label b2_10 already defined)
+(label b16_9 already defined)
+(label b15_9 already defined)
+(label b14_9 already defined)
+(label b13_9 already defined)
+(label b12_9 already defined)
+(label b10_9 already defined)
+(label b9_9 already defined)
+(label b8_9 already defined)
+(label b5_9 already defined)
+(label b3_9 already defined)
+(label b2_9 already defined)
+(label b16_8 already defined)
+(label b15_8 already defined)
+(label b14_8 already defined)
+(label b13_8 already defined)
+(label b12_8 already defined)
+(label b10_8 already defined)
+(label b9_8 already defined)
+(label b8_8 already defined)
+(label b5_8 already defined)
+(label b3_8 already defined)
+(label b2_8 already defined)
+(label b16_7 already defined)
+(label b15_7 already defined)
+(label b14_7 already defined)
+(label b13_7 already defined)
+(label b12_7 already defined)
+(label b10_7 already defined)
+(label b9_7 already defined)
+(label b8_7 already defined)
+(label b5_7 already defined)
+(label b3_7 already defined)
+(label b2_7 already defined)
+(label b16_6 already defined)
+(label b15_6 already defined)
+(label b14_6 already defined)
+(label b13_6 already defined)
+(label b12_6 already defined)
+(label b10_6 already defined)
+(label b9_6 already defined)
+(label b8_6 already defined)
+(label b5_6 already defined)
+(label b3_6 already defined)
+(label b2_6 already defined)
+(label b16_5 already defined)
+(label b15_5 already defined)
+(label b14_5 already defined)
+(label b13_5 already defined)
+(label b12_5 already defined)
+(label b10_5 already defined)
+(label b9_5 already defined)
+(label b8_5 already defined)
+(label b5_5 already defined)
+(label b3_5 already defined)
+(label b2_5 already defined)
+(label b16_4 already defined)
+(label b15_4 already defined)
+(label b14_4 already defined)
+(label b13_4 already defined)
+(label b12_4 already defined)
+(label b10_4 already defined)
+(label b9_4 already defined)
+(label b8_4 already defined)
+(label b5_4 already defined)
+(label b3_4 already defined)
+(label b2_4 already defined)
+(label b16_3 already defined)
+(label b15_3 already defined)
+(label b14_3 already defined)
+(label b13_3 already defined)
+(label b12_3 already defined)
+(label b10_3 already defined)
+(label b9_3 already defined)
+(label b8_3 already defined)
+(label b5_3 already defined)
+(label b3_3 already defined)
+(label b2_3 already defined)
+(label b16_2 already defined)
+(label b15_2 already defined)
+(label b14_2 already defined)
+(label b13_2 already defined)
+(label b12_2 already defined)
+(label b10_2 already defined)
+(label b9_2 already defined)
+(label b8_2 already defined)
+(label b5_2 already defined)
+(label b3_2 already defined)
+(label b2_2 already defined)
+(label b16_1 already defined)
+(label b15_1 already defined)
+(label b14_1 already defined)
+(label b13_1 already defined)
+(label b12_1 already defined)
+(label b10_1 already defined)
+(label b9_1 already defined)
+(label b8_1 already defined)
+(label b5_1 already defined)
+(label b3_1 already defined)
+(label b2_1 already defined)
+(label a18 already defined)
+(label a17 already defined)
+(label a16 already defined)
+(label a11 already defined)
+(label a7 already defined)
+(label a5 already defined)
+(label a4 already defined)
+
+. append using "inc112.dta"
+(variable itm145 was int, now long to accommodate using data's values)
+(variable itm356 was int, now long to accommodate using data's values)
+(variable itm874 was int, now long to accommodate using data's values)
+(label a4 already defined)
+(label a5 already defined)
+(label a7 already defined)
+(label a11 already defined)
+(label a16 already defined)
+(label a17 already defined)
+(label a18 already defined)
+(label b2_1 already defined)
+(label b3_1 already defined)
+(label b5_1 already defined)
+(label b8_1 already defined)
+(label b9_1 already defined)
+(label b10_1 already defined)
+(label b12_1 already defined)
+(label b13_1 already defined)
+(label b14_1 already defined)
+(label b15_1 already defined)
+(label b16_1 already defined)
+(label b2_2 already defined)
+(label b3_2 already defined)
+(label b5_2 already defined)
+(label b8_2 already defined)
+(label b9_2 already defined)
+(label b10_2 already defined)
+(label b12_2 already defined)
+(label b13_2 already defined)
+(label b14_2 already defined)
+(label b15_2 already defined)
+(label b16_2 already defined)
+(label b2_3 already defined)
+(label b3_3 already defined)
+(label b5_3 already defined)
+(label b8_3 already defined)
+(label b9_3 already defined)
+(label b10_3 already defined)
+(label b12_3 already defined)
+(label b13_3 already defined)
+(label b14_3 already defined)
+(label b15_3 already defined)
+(label b16_3 already defined)
+(label b2_4 already defined)
+(label b3_4 already defined)
+(label b5_4 already defined)
+(label b8_4 already defined)
+(label b9_4 already defined)
+(label b10_4 already defined)
+(label b12_4 already defined)
+(label b13_4 already defined)
+(label b14_4 already defined)
+(label b15_4 already defined)
+(label b16_4 already defined)
+(label b2_5 already defined)
+(label b3_5 already defined)
+(label b5_5 already defined)
+(label b8_5 already defined)
+(label b9_5 already defined)
+(label b10_5 already defined)
+(label b12_5 already defined)
+(label b13_5 already defined)
+(label b14_5 already defined)
+(label b15_5 already defined)
+(label b16_5 already defined)
+(label b2_6 already defined)
+(label b3_6 already defined)
+(label b5_6 already defined)
+(label b8_6 already defined)
+(label b9_6 already defined)
+(label b10_6 already defined)
+(label b12_6 already defined)
+(label b13_6 already defined)
+(label b14_6 already defined)
+(label b15_6 already defined)
+(label b16_6 already defined)
+(label b2_7 already defined)
+(label b3_7 already defined)
+(label b5_7 already defined)
+(label b8_7 already defined)
+(label b9_7 already defined)
+(label b10_7 already defined)
+(label b12_7 already defined)
+(label b13_7 already defined)
+(label b14_7 already defined)
+(label b15_7 already defined)
+(label b16_7 already defined)
+(label b2_8 already defined)
+(label b3_8 already defined)
+(label b5_8 already defined)
+(label b8_8 already defined)
+(label b9_8 already defined)
+(label b10_8 already defined)
+(label b12_8 already defined)
+(label b13_8 already defined)
+(label b14_8 already defined)
+(label b15_8 already defined)
+(label b16_8 already defined)
+(label b2_9 already defined)
+(label b3_9 already defined)
+(label b5_9 already defined)
+(label b8_9 already defined)
+(label b9_9 already defined)
+(label b10_9 already defined)
+(label b12_9 already defined)
+(label b13_9 already defined)
+(label b14_9 already defined)
+(label b15_9 already defined)
+(label b16_9 already defined)
+(label b2_10 already defined)
+(label b3_10 already defined)
+(label b5_10 already defined)
+(label b8_10 already defined)
+(label b9_10 already defined)
+(label b10_10 already defined)
+(label b12_10 already defined)
+(label b13_10 already defined)
+(label b14_10 already defined)
+(label b15_10 already defined)
+(label b16_10 already defined)
+(label b2_11 already defined)
+(label b3_11 already defined)
+(label b5_11 already defined)
+(label b8_11 already defined)
+(label b9_11 already defined)
+(label b10_11 already defined)
+(label b12_11 already defined)
+(label b13_11 already defined)
+(label b14_11 already defined)
+(label b15_11 already defined)
+(label b16_11 already defined)
+(label b2_12 already defined)
+(label b3_12 already defined)
+(label b5_12 already defined)
+(label b8_12 already defined)
+(label b9_12 already defined)
+(label b10_12 already defined)
+(label b12_12 already defined)
+(label b13_12 already defined)
+(label b14_12 already defined)
+(label b15_12 already defined)
+(label b16_12 already defined)
+(label b2_13 already defined)
+(label b3_13 already defined)
+(label b5_13 already defined)
+(label b8_13 already defined)
+(label b9_13 already defined)
+(label b10_13 already defined)
+(label b12_13 already defined)
+(label b13_13 already defined)
+(label b14_13 already defined)
+(label b15_13 already defined)
+(label b16_13 already defined)
+(label b2_14 already defined)
+(label b3_14 already defined)
+(label b5_14 already defined)
+(label b8_14 already defined)
+(label b9_14 already defined)
+(label b10_14 already defined)
+(label b12_14 already defined)
+(label b13_14 already defined)
+(label b14_14 already defined)
+(label b15_14 already defined)
+(label b16_14 already defined)
+(label b2_15 already defined)
+(label b3_15 already defined)
+(label b5_15 already defined)
+(label b8_15 already defined)
+(label b9_15 already defined)
+(label b10_15 already defined)
+(label b12_15 already defined)
+(label b13_15 already defined)
+(label b14_15 already defined)
+(label b15_15 already defined)
+(label b16_15 already defined)
+(label b2_16 already defined)
+(label b3_16 already defined)
+(label b5_16 already defined)
+(label b8_16 already defined)
+(label b9_16 already defined)
+(label b10_16 already defined)
+(label b12_16 already defined)
+(label b13_16 already defined)
+(label b14_16 already defined)
+(label b15_16 already defined)
+(label b16_16 already defined)
+(label b2_17 already defined)
+(label b3_17 already defined)
+(label b5_17 already defined)
+(label b8_17 already defined)
+(label b9_17 already defined)
+(label b10_17 already defined)
+(label b12_17 already defined)
+(label b13_17 already defined)
+(label b14_17 already defined)
+(label b15_17 already defined)
+(label b16_17 already defined)
+(label b2_18 already defined)
+(label b3_18 already defined)
+(label b5_18 already defined)
+(label b8_18 already defined)
+(label b9_18 already defined)
+(label b10_18 already defined)
+(label b12_18 already defined)
+(label b13_18 already defined)
+(label b14_18 already defined)
+(label b15_18 already defined)
+(label b16_18 already defined)
+(label b2_19 already defined)
+(label b3_19 already defined)
+(label b5_19 already defined)
+(label b8_19 already defined)
+(label b9_19 already defined)
+(label b10_19 already defined)
+(label b12_19 already defined)
+(label b13_19 already defined)
+(label b14_19 already defined)
+(label b15_19 already defined)
+(label b16_19 already defined)
+(label f57 already defined)
+(label f61 already defined)
+(label c1 already defined)
+(label c2 already defined)
+(label c4 already defined)
+(label d1 already defined)
+(label d5 already defined)
+(label d6 already defined)
+
+. 
+. keep id a5 a6 a7 a11 itm211 year
+
+. 
+. codebook itm211
+
+----------------------------------------------------------------------------------------------
+itm211                                                                      經濟戶長之本業薪資
+----------------------------------------------------------------------------------------------
+
+                  Type: Numeric (long)
+
+                 Range: [19000,10247000]              Units: 1
+         Unique values: 9,213                     Missing .: 33,789/82,640
+
+                  Mean: 591689
+             Std. dev.: 381276
+
+           Percentiles:    10%       25%       50%       75%       90%
+                        314000    380000    496000    685640    960000
+
+. 
+. duplicates drop
+
+Duplicates in terms of all variables
+
+(0 observations are duplicates)
+
+. 
+. duplicates list
+
+Duplicates in terms of all variables
+
+(0 observations are duplicates)
+
+. 
+. encode id, gen(idd)
+
+. 
+. tab a11
+
+        經濟戶長教育程度 |      Freq.     Percent        Cum.
+-------------------------+-----------------------------------
+                  不識字 |      1,481        1.79        1.79
+                    自修 |        726        0.88        2.67
+                    國小 |      8,761       10.60       13.27
+          國(初)中(初職) |     11,077       13.40       26.68
+                    高中 |     14,647       17.72       44.40
+                    高職 |      9,980       12.08       56.48
+專科(五專前三年劃記高職) |     10,523       12.73       69.21
+                    大學 |     18,803       22.75       91.96
+                    碩士 |      5,975        7.23       99.19
+                    博士 |        667        0.81      100.00
+-------------------------+-----------------------------------
+                   Total |     82,640      100.00
+
+. 
+. rename a5 job
+
+. tabulate job
+
+                  經濟戶長職業 |      Freq.     Percent        Cum.
+-------------------------------+-----------------------------------
+無業者(含無職業家庭之經濟戶長) |     18,575       22.48       22.48
+      民意代表、主管及經理人員 |      3,611        4.37       26.85
+                      專業人員 |      8,511       10.30       37.15
+          技術員及助理專業人員 |     12,329       14.92       52.06
+                  事務支援人員 |      4,589        5.55       57.62
+            服務及銷售工作人員 |     11,444       13.85       71.47
+              技藝有關工作人員 |      8,830       10.68       82.15
+        機械設備操作及組裝人員 |      7,500        9.08       91.23
+            基層技術工及勞力工 |      3,498        4.23       95.46
+                      現役軍人 |        382        0.46       95.92
+        農事、畜牧及有關工作者 |      3,069        3.71       99.63
+                  林業生產人員 |         13        0.02       99.65
+                  漁業生產人員 |        289        0.35      100.00
+-------------------------------+-----------------------------------
+                         Total |     82,640      100.00
+
+. tabulate job, gen(job_dummy)
+
+                  經濟戶長職業 |      Freq.     Percent        Cum.
+-------------------------------+-----------------------------------
+無業者(含無職業家庭之經濟戶長) |     18,575       22.48       22.48
+      民意代表、主管及經理人員 |      3,611        4.37       26.85
+                      專業人員 |      8,511       10.30       37.15
+          技術員及助理專業人員 |     12,329       14.92       52.06
+                  事務支援人員 |      4,589        5.55       57.62
+            服務及銷售工作人員 |     11,444       13.85       71.47
+              技藝有關工作人員 |      8,830       10.68       82.15
+        機械設備操作及組裝人員 |      7,500        9.08       91.23
+            基層技術工及勞力工 |      3,498        4.23       95.46
+                      現役軍人 |        382        0.46       95.92
+        農事、畜牧及有關工作者 |      3,069        3.71       99.63
+                  林業生產人員 |         13        0.02       99.65
+                  漁業生產人員 |        289        0.35      100.00
+-------------------------------+-----------------------------------
+                         Total |     82,640      100.00
+
+. 
+. rename a6 age
+
+. tabulate age
+
+     經濟戶 |
+     長年齡 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         15 |          1        0.00        0.00
+         16 |          2        0.00        0.00
+         17 |          4        0.00        0.01
+         18 |         11        0.01        0.02
+         19 |         27        0.03        0.05
+         20 |         56        0.07        0.12
+         21 |         53        0.06        0.19
+         22 |        104        0.13        0.31
+         23 |        201        0.24        0.56
+         24 |        263        0.32        0.87
+         25 |        345        0.42        1.29
+         26 |        473        0.57        1.86
+         27 |        542        0.66        2.52
+         28 |        611        0.74        3.26
+         29 |        731        0.88        4.14
+         30 |        796        0.96        5.11
+         31 |        823        1.00        6.10
+         32 |        890        1.08        7.18
+         33 |        956        1.16        8.34
+         34 |      1,093        1.32        9.66
+         35 |      1,169        1.41       11.07
+         36 |      1,261        1.53       12.60
+         37 |      1,455        1.76       14.36
+         38 |      1,631        1.97       16.33
+         39 |      1,678        2.03       18.36
+         40 |      1,764        2.13       20.50
+         41 |      1,894        2.29       22.79
+         42 |      1,884        2.28       25.07
+         43 |      1,889        2.29       27.36
+         44 |      1,904        2.30       29.66
+         45 |      1,897        2.30       31.96
+         46 |      1,778        2.15       34.11
+         47 |      1,769        2.14       36.25
+         48 |      1,836        2.22       38.47
+         49 |      1,803        2.18       40.65
+         50 |      1,906        2.31       42.96
+         51 |      1,919        2.32       45.28
+         52 |      2,012        2.43       47.71
+         53 |      1,963        2.38       50.09
+         54 |      1,913        2.31       52.40
+         55 |      1,952        2.36       54.77
+         56 |      1,926        2.33       57.10
+         57 |      2,057        2.49       59.59
+         58 |      1,970        2.38       61.97
+         59 |      1,938        2.35       64.32
+         60 |      1,961        2.37       66.69
+         61 |      1,873        2.27       68.95
+         62 |      1,882        2.28       71.23
+         63 |      1,757        2.13       73.36
+         64 |      1,754        2.12       75.48
+         65 |      1,602        1.94       77.42
+         66 |      1,560        1.89       79.31
+         67 |      1,489        1.80       81.11
+         68 |      1,548        1.87       82.98
+         69 |      1,448        1.75       84.73
+         70 |      1,354        1.64       86.37
+         71 |      1,286        1.56       87.93
+         72 |      1,099        1.33       89.26
+         73 |        971        1.17       90.43
+         74 |        869        1.05       91.48
+         75 |        736        0.89       92.38
+         76 |        608        0.74       93.11
+         77 |        630        0.76       93.87
+         78 |        536        0.65       94.52
+         79 |        580        0.70       95.22
+         80 |        540        0.65       95.88
+         81 |        484        0.59       96.46
+         82 |        426        0.52       96.98
+         83 |        395        0.48       97.46
+         84 |        344        0.42       97.87
+         85 |        321        0.39       98.26
+         86 |        269        0.33       98.59
+         87 |        233        0.28       98.87
+         88 |        208        0.25       99.12
+         89 |        154        0.19       99.31
+         90 |        154        0.19       99.49
+         91 |        114        0.14       99.63
+         92 |         89        0.11       99.74
+         93 |         71        0.09       99.82
+         94 |         47        0.06       99.88
+         95 |         37        0.04       99.93
+         96 |         23        0.03       99.95
+         97 |          9        0.01       99.96
+         98 |         14        0.02       99.98
+         99 |          7        0.01       99.99
+        100 |          5        0.01      100.00
+        101 |          3        0.00      100.00
+------------+-----------------------------------
+      Total |     82,640      100.00
+
+. 
+. rename a7 gender
+
+. tabulate gender,gen (gender_dummy)
+
+     經濟戶 |
+     長性別 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         男 |     56,499       68.37       68.37
+         女 |     26,141       31.63      100.00
+------------+-----------------------------------
+      Total |     82,640      100.00
+
+. 
+. rename a11 edu
+
+. tabulate edu
+
+        經濟戶長教育程度 |      Freq.     Percent        Cum.
+-------------------------+-----------------------------------
+                  不識字 |      1,481        1.79        1.79
+                    自修 |        726        0.88        2.67
+                    國小 |      8,761       10.60       13.27
+          國(初)中(初職) |     11,077       13.40       26.68
+                    高中 |     14,647       17.72       44.40
+                    高職 |      9,980       12.08       56.48
+專科(五專前三年劃記高職) |     10,523       12.73       69.21
+                    大學 |     18,803       22.75       91.96
+                    碩士 |      5,975        7.23       99.19
+                    博士 |        667        0.81      100.00
+-------------------------+-----------------------------------
+                   Total |     82,640      100.00
+
+. recode edu (1/6 = 1) (7/8 = 2) (9/10 = 3)
+(81159 changes made to edu)
+
+. label define edu_labels 1 "高中(含高中及五專前三年)以下" 2 "大學" 3 "研究所以上"
+
+. label values edu edu_labels
+
+. tabulate edu, gen (edu_dummy)
+
+            經濟戶長教育程度 |      Freq.     Percent        Cum.
+-----------------------------+-----------------------------------
+高中(含高中及五專前三年)以下 |     46,672       56.48       56.48
+                        大學 |     29,326       35.49       91.96
+                  研究所以上 |      6,642        8.04      100.00
+-----------------------------+-----------------------------------
+                       Total |     82,640      100.00
+
+. 
+. drop if missing(itm211)
+(33,789 observations deleted)
+
+. generate ln_income = log(itm211)
+
+. describe ln_income
+
+Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+----------------------------------------------------------------------------------------------
+ln_income       float   %9.0g                 
+
+. 
+. summarize
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+          id |          0
+         job |     48,851    4.952283    4.513203          0         63
+         age |     48,851    46.53669    10.92924         15         85
+      gender |     48,851    1.301263    .4588114          1          2
+         edu |     48,851    1.672085      .67176          1          3
+-------------+---------------------------------------------------------
+      itm211 |     48,851    591688.9    381275.5      19000   1.02e+07
+        year |     48,851    109.9905    1.411603        108        112
+         idd |     48,851    8546.956    4625.348          2      16528
+  job_dummy1 |     48,851    .0000409    .0063984          0          1
+  job_dummy2 |     48,851    .0633354    .2435678          0          1
+-------------+---------------------------------------------------------
+  job_dummy3 |     48,851    .1586252      .36533          0          1
+  job_dummy4 |     48,851     .217887    .4128144          0          1
+  job_dummy5 |     48,851    .0921987    .2893092          0          1
+  job_dummy6 |     48,851    .1254017    .3311773          0          1
+  job_dummy7 |     48,851    .1345929    .3412918          0          1
+-------------+---------------------------------------------------------
+  job_dummy8 |     48,851    .1291273    .3353443          0          1
+  job_dummy9 |     48,851    .0665902    .2493136          0          1
+ job_dummy10 |     48,851    .0078197    .0880835          0          1
+ job_dummy11 |     48,851     .003132    .0558769          0          1
+ job_dummy12 |     48,851    .0001638    .0127961          0          1
+-------------+---------------------------------------------------------
+ job_dummy13 |     48,851    .0010849    .0329208          0          1
+gender_dum~1 |     48,851     .698737    .4588114          0          1
+gender_dum~2 |     48,851     .301263    .4588114          0          1
+  edu_dummy1 |     48,851    .4433481    .4967853          0          1
+  edu_dummy2 |     48,851    .4412192    .4965379          0          1
+-------------+---------------------------------------------------------
+  edu_dummy3 |     48,851    .1154326    .3195466          0          1
+   ln_income |     48,851    13.16597    .4697867   9.852194    16.1425
+
+. 
+. graph twoway (lfitci ln_income age) ///
+> (scatter ln_income age) ///
+> , title("本業薪資與年齡的關係") ///
+> ytitle("ln_income") ///
+> xtitle("age") ///
+> legend(ring(0) order(2 "linear fit" 1 "95% CI"))
+
+. 
+. histogram ln_income, ///
+> title("本業薪資的機率分配") ///
+> xtitle("income(%)") ///
+> ytitle("fequency", margin(medium)) ///
+> xlabel(11(1)16) ///
+> ylabel(0(0.1)1)
+(bin=46, start=9.8521938, width=.1367457)
+
+. 
+. regress ln_income age
+
+      Source |       SS           df       MS      Number of obs   =    48,851
+-------------+----------------------------------   F(1, 48849)     =    115.41
+       Model |  25.4110285         1  25.4110285   Prob > F        =    0.0000
+    Residual |  10755.7617    48,849  .220183867   R-squared       =    0.0024
+-------------+----------------------------------   Adj R-squared   =    0.0023
+       Total |  10781.1728    48,850  .220699545   Root MSE        =    .46924
+
+------------------------------------------------------------------------------
+   ln_income | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+         age |   .0020868   .0001943    10.74   0.000     .0017061    .0024676
+       _cons |   13.06885   .0092859  1407.39   0.000     13.05065    13.08705
+------------------------------------------------------------------------------
+
+. 
+. regress ln_income age gender_dummy1 edu_dummy2-edu_dummy3 job_dummy1-job_dummy12
+
+      Source |       SS           df       MS      Number of obs   =    48,851
+-------------+----------------------------------   F(16, 48834)    =   2720.03
+       Model |  5080.44021        16  317.527513   Prob > F        =    0.0000
+    Residual |  5700.73255    48,834  .116736957   R-squared       =    0.4712
+-------------+----------------------------------   Adj R-squared   =    0.4711
+       Total |  10781.1728    48,850  .220699545   Root MSE        =    .34167
+
+-------------------------------------------------------------------------------
+    ln_income | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+--------------+----------------------------------------------------------------
+          age |   .0052366   .0001515    34.56   0.000     .0049396    .0055336
+gender_dummy1 |   .1668003   .0035905    46.46   0.000     .1597629    .1738377
+   edu_dummy2 |   .1347836   .0040711    33.11   0.000     .1268041    .1427631
+   edu_dummy3 |   .3522409   .0064393    54.70   0.000     .3396199    .3648619
+   job_dummy1 |   -1.34711   .2461431    -5.47   0.000    -1.829554   -.8646665
+   job_dummy2 |   .6604529   .0474577    13.92   0.000     .5674352    .7534705
+   job_dummy3 |   .3424694   .0472636     7.25   0.000     .2498321    .4351067
+   job_dummy4 |   .1991342   .0471349     4.22   0.000     .1067492    .2915192
+   job_dummy5 |  -.0495797   .0473077    -1.05   0.295    -.1423035     .043144
+   job_dummy6 |  -.0800751   .0471729    -1.70   0.090    -.1725346    .0123844
+   job_dummy7 |  -.0216927   .0471231    -0.46   0.645    -.1140545    .0706691
+   job_dummy8 |  -.0649965   .0471343    -1.38   0.168    -.1573804    .0273874
+   job_dummy9 |  -.3150491   .0473374    -6.66   0.000    -.4078311   -.2222672
+  job_dummy10 |   .3679886   .0501574     7.34   0.000     .2696793    .4662978
+  job_dummy11 |  -.3105969   .0544677    -5.70   0.000    -.4173543   -.2038395
+  job_dummy12 |  -.0956752   .1295982    -0.74   0.460    -.3496893    .1583389
+        _cons |   12.61112   .0476672   264.57   0.000     12.51769    12.70455
+-------------------------------------------------------------------------------
+
+. 
+. xtset idd year
+
+Panel variable: idd (unbalanced)
+ Time variable: year, 108 to 112, but with gaps
+         Delta: 1 unit
+
+. 
+. ssc install ftools
+checking ftools consistency and verifying not already installed...
+all files already exist and are up to date.
+
+. ssc install reghdfe
+checking reghdfe consistency and verifying not already installed...
+all files already exist and are up to date.
+
+. 
+. which ftools
+/Users/coco/Library/Application Support/Stata/ado/plus/f/ftools.ado
+*! version 2.49.1 08aug2023
+
+. which reghdfe
+/Users/coco/Library/Application Support/Stata/ado/plus/r/reghdfe.ado
+*! version 6.12.3 08aug2023
+
+. 
+. reghdfe ln_income age gender_dummy1 edu_dummy2-edu_dummy3 job_dummy1-job_dummy12, absorb(idd
+>  year) 
+(dropped 1533 singleton observations)
+(MWFE estimator converged in 5 iterations)
+
+HDFE Linear regression                            Number of obs   =     47,318
+Absorbing 2 HDFE groups                           F(  16,  32648) =    1535.76
+                                                  Prob > F        =     0.0000
+                                                  R-squared       =     0.6554
+                                                  Adj R-squared   =     0.5006
+                                                  Within R-sq.    =     0.4294
+                                                  Root MSE        =     0.3318
+
+-------------------------------------------------------------------------------
+    ln_income | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+--------------+----------------------------------------------------------------
+          age |   .0051185   .0001806    28.35   0.000     .0047646    .0054724
+gender_dummy1 |   .1704982   .0042833    39.81   0.000     .1621027    .1788936
+   edu_dummy2 |   .1232887   .0048961    25.18   0.000     .1136921    .1328853
+   edu_dummy3 |   .3249877   .0077068    42.17   0.000     .3098821    .3400933
+   job_dummy1 |  -1.296531   .2773526    -4.67   0.000    -1.840152   -.7529094
+   job_dummy2 |   .6252994   .0594622    10.52   0.000     .5087513    .7418476
+   job_dummy3 |     .32171    .059236     5.43   0.000     .2056053    .4378147
+   job_dummy4 |   .1876024   .0590792     3.18   0.001     .0718049    .3033999
+   job_dummy5 |  -.0502259   .0592547    -0.85   0.397    -.1663672    .0659154
+   job_dummy6 |  -.0815002   .0591279    -1.38   0.168    -.1973931    .0343927
+   job_dummy7 |  -.0093566   .0590379    -0.16   0.874     -.125073    .1063597
+   job_dummy8 |  -.0399688   .0590696    -0.68   0.499    -.1557475    .0758098
+   job_dummy9 |   -.286991   .0592662    -4.84   0.000    -.4031548   -.1708271
+  job_dummy10 |   .3932334   .0624761     6.29   0.000     .2707779    .5156888
+  job_dummy11 |  -.2265532    .068145    -3.32   0.001    -.3601199   -.0929865
+  job_dummy12 |  -.1156991   .1563467    -0.74   0.459    -.4221445    .1907462
+        _cons |   12.62548   .0596915   211.51   0.000     12.50848    12.74248
+-------------------------------------------------------------------------------
+
+Absorbed degrees of freedom:
+-----------------------------------------------------+
+ Absorbed FE | Categories  - Redundant  = Num. Coefs |
+-------------+---------------------------------------|
+         idd |     14650           0       14650     |
+        year |         5           1           4     |
+-----------------------------------------------------+
+
+. 
+. log close
+      name:  <unnamed>
+       log:  /Users/coco/Desktop/台大計量/stata/analyze.log
+  log type:  text
+ closed on:   3 Nov 2024, 21:01:18
+----------------------------------------------------------------------------------------------
